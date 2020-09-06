@@ -23,7 +23,7 @@ nav {
   height: 8%;
 }
 
-h1 {
+h2 {
   font-family: Roboto, sans-serif;
   display: flex;
   justify-content: flex-start;
@@ -32,41 +32,119 @@ h1 {
   margin: 0;
 }
 
-button {
-  height: 40px;
+h3 {
+  font: Roboto, sans serif
+}
+
+h1 {
+  font-family: Roboto, sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 25px;
+  margin: 0;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  height: 30px;
   width: 120px;
-  border-radius: 4px;
+  border-radius: 20%;
   border-width: thin;
   border-style: none;
   font: Roboto, sans serif;
 }
 
-.main-section {
+input {
+  /* display: flex;
+  justify-content: flex-start; */
+  margin: 0px;
+  padding-left: 2%;
+}
+
+svg {
+  height: 30%;
+  width: 30%;
+}
+
+/* .main-section {
   height: 100%;
   width: 100%;
-}
+} */
 
-img {
-  /* height: 100%;
-  width: 100%; */
-  background-size: cover;
-}
-
-/* .boxes {
+.boxes {
   display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
   justify-content: space-around;
-  height: 30%;
-  width: 20%;
+  align-content: space-between;
+  /* margin: 12px; */
 }
 
 .box-1 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(225, 225, 225, .9);
+  border: 0;
+  margin-top: 5%;
+  margin-left: 10px;
+  width: 500px;
+  height: 400px;
+}
+.box-2 {
+  font: roboto, sans serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(225, 225, 225, .9);
+  border: 0;
+  padding: 0px;
+  margin-top: 5%;
+  margin-right: 20px;
+  width: 500px;
+  height: 400px;
+}
+
+.box-button {
+  font: Roboto, sans serif;
+  height: 30px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+  margin-left: 40px;
+  border-radius: 4px;
+  border-style: none;
+  padding: 8px;
+  background-color: #0fb9b1;
+}
+
+.radio {
+  padding: 5px;
+  margin-right: 5px;
+}
+
+li {
+  list-style: none;
+  padding: 2%;
+  font-family: Roboto, sans-serif;
+}
+
+/* .box-1 {
   height: 50%;
   width: 30%;
   border: 1px;
+  border-style: solid;
+  color: frosted white - rgba(225, 225, 225, .9);
+  opacity: 4%;
 }
 
 .box-2 {
   height: 50%;
   width: 30%;
   border: 1px;
-} */
+  border-style: solid;
+  color: frosted white - rgba(225, 225, 225, .9);
+  opacity: 4%;
+} */ */
