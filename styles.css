@@ -67,11 +67,6 @@ svg {
   width: 30%;
 }
 
-/* .main-section {
-  height: 100%;
-  width: 100%;
-} */
-
 .boxes {
   display: flex;
   flex-direction: row;
@@ -105,7 +100,7 @@ svg {
   height: 400px;
 }
 
-.box-button {
+.lets-cook-button {
   font: Roboto, sans serif;
   height: 30px;
   width: 150px;
@@ -113,10 +108,10 @@ svg {
   justify-content: center;
   align-self: center;
   text-align: center;
-  margin-left: 40px;
+  margin-left: 0;
   border-radius: 4px;
   border-style: none;
-  padding: 8px;
+  padding-top: 20px;
   background-color: #0fb9b1;
 }
 
@@ -131,6 +126,14 @@ li {
   font-family: Roboto, sans-serif;
 }
 
+.hidden {
+  display: none;
+}
+
+.suggestion-text{
+  font-family: roboto, sans-serif;
+  font-style: italic;
+}
 /* .box-1 {
   height: 50%;
   width: 30%;
